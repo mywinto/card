@@ -15,12 +15,14 @@
 		CA4E903420C631BD000DBB6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E903320C631BD000DBB6B /* main.m */; };
 		CA4E903E20C631BD000DBB6B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E903D20C631BD000DBB6B /* ____Tests.m */; };
 		CA4E904920C631BD000DBB6B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E904820C631BD000DBB6B /* ____UITests.m */; };
-		CA4E905D20C63349000DBB6B /* CustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E905820C63349000DBB6B /* CustomSlideView.m */; };
-		CA4E905E20C63349000DBB6B /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E905B20C63349000DBB6B /* CardView.m */; };
-		CA4E905F20C63349000DBB6B /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E905C20C63349000DBB6B /* CardViewController.m */; };
 		CA4E906320C6351B000DBB6B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4E906020C6351B000DBB6B /* 1.jpg */; };
 		CA4E906420C6351B000DBB6B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4E906120C6351B000DBB6B /* 3.jpg */; };
 		CA4E906520C6351B000DBB6B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA4E906220C6351B000DBB6B /* 2.jpg */; };
+		CADB454720C66B8100B9E36D /* CustomSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454120C66B8100B9E36D /* CustomSlideView.m */; };
+		CADB454820C66B8100B9E36D /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454420C66B8100B9E36D /* CardViewController.m */; };
+		CADB454920C66B8100B9E36D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454620C66B8100B9E36D /* CardView.m */; };
+		CADB454D20C6705300B9E36D /* SlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454C20C6705300B9E36D /* SlideVC.m */; };
+		CADB455020C6726F00B9E36D /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454E20C6726F00B9E36D /* UIView_extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,15 +59,19 @@
 		CA4E904420C631BD000DBB6B /* 卡片效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "卡片效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4E904820C631BD000DBB6B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		CA4E904A20C631BD000DBB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA4E905720C63349000DBB6B /* CustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlideView.h; sourceTree = "<group>"; };
-		CA4E905820C63349000DBB6B /* CustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlideView.m; sourceTree = "<group>"; };
-		CA4E905920C63349000DBB6B /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
-		CA4E905A20C63349000DBB6B /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
-		CA4E905B20C63349000DBB6B /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
-		CA4E905C20C63349000DBB6B /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
 		CA4E906020C6351B000DBB6B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		CA4E906120C6351B000DBB6B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		CA4E906220C6351B000DBB6B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CADB454120C66B8100B9E36D /* CustomSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlideView.m; sourceTree = "<group>"; };
+		CADB454220C66B8100B9E36D /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		CADB454320C66B8100B9E36D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		CADB454420C66B8100B9E36D /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		CADB454520C66B8100B9E36D /* CustomSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlideView.h; sourceTree = "<group>"; };
+		CADB454620C66B8100B9E36D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		CADB454B20C6705300B9E36D /* SlideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideVC.h; sourceTree = "<group>"; };
+		CADB454C20C6705300B9E36D /* SlideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideVC.m; sourceTree = "<group>"; };
+		CADB454E20C6726F00B9E36D /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		CADB454F20C6726F00B9E36D /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +124,12 @@
 			children = (
 				CA4E902420C631BA000DBB6B /* AppDelegate.h */,
 				CA4E902520C631BA000DBB6B /* AppDelegate.m */,
-				CA4E905620C632BB000DBB6B /* New Group */,
+				CADB454A20C66F0000B9E36D /* slide */,
+				CADB454020C66B8100B9E36D /* New Group */,
 				CA4E902720C631BA000DBB6B /* ViewController.h */,
 				CA4E902820C631BA000DBB6B /* ViewController.m */,
+				CADB454F20C6726F00B9E36D /* UIView_extra.h */,
+				CADB454E20C6726F00B9E36D /* UIView_extra.m */,
 				CA4E906020C6351B000DBB6B /* 1.jpg */,
 				CA4E906220C6351B000DBB6B /* 2.jpg */,
 				CA4E906120C6351B000DBB6B /* 3.jpg */,
@@ -151,17 +160,26 @@
 			path = "卡片效果UITests";
 			sourceTree = "<group>";
 		};
-		CA4E905620C632BB000DBB6B /* New Group */ = {
+		CADB454020C66B8100B9E36D /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				CA4E905A20C63349000DBB6B /* CardView.h */,
-				CA4E905B20C63349000DBB6B /* CardView.m */,
-				CA4E905920C63349000DBB6B /* CardViewController.h */,
-				CA4E905C20C63349000DBB6B /* CardViewController.m */,
-				CA4E905720C63349000DBB6B /* CustomSlideView.h */,
-				CA4E905820C63349000DBB6B /* CustomSlideView.m */,
+				CADB454120C66B8100B9E36D /* CustomSlideView.m */,
+				CADB454220C66B8100B9E36D /* CardViewController.h */,
+				CADB454320C66B8100B9E36D /* CardView.h */,
+				CADB454420C66B8100B9E36D /* CardViewController.m */,
+				CADB454520C66B8100B9E36D /* CustomSlideView.h */,
+				CADB454620C66B8100B9E36D /* CardView.m */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CADB454A20C66F0000B9E36D /* slide */ = {
+			isa = PBXGroup;
+			children = (
+				CADB454B20C6705300B9E36D /* SlideVC.h */,
+				CADB454C20C6705300B9E36D /* SlideVC.m */,
+			);
+			path = slide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,12 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADB454920C66B8100B9E36D /* CardView.m in Sources */,
+				CADB454820C66B8100B9E36D /* CardViewController.m in Sources */,
+				CADB454D20C6705300B9E36D /* SlideVC.m in Sources */,
 				CA4E902920C631BA000DBB6B /* ViewController.m in Sources */,
 				CA4E903420C631BD000DBB6B /* main.m in Sources */,
-				CA4E905F20C63349000DBB6B /* CardViewController.m in Sources */,
-				CA4E905E20C63349000DBB6B /* CardView.m in Sources */,
+				CADB455020C6726F00B9E36D /* UIView_extra.m in Sources */,
 				CA4E902620C631BA000DBB6B /* AppDelegate.m in Sources */,
-				CA4E905D20C63349000DBB6B /* CustomSlideView.m in Sources */,
+				CADB454720C66B8100B9E36D /* CustomSlideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
