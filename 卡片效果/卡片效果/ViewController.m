@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "CardViewController.h"
 #import "SlideVC.h"
+#import "CityViewController.h"
+#import "FoldCityViewController.h"
+#import "AddressListView.h"
+#import "AddressPickerView.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)NSArray *array;
 @end
@@ -17,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _array = @[@"进入card",@"仿百度滑动停止"];
+    _array = @[@"进入card",@"仿百度滑动停止",@"地区选择列表样式",@"地区选择列表可折叠",@"地区选择picker",@"地区选择4"];
     [self setView];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -30,7 +34,7 @@
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
     [self.view addSubview:tableView];
-
+    
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"  forIndexPath:indexPath];
@@ -44,7 +48,7 @@
     return 1;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-      return _array.count;
+    return _array.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return 0.001;
@@ -66,7 +70,32 @@
     }else  if (indexPath.row==1) {
         SlideVC *slide =[[SlideVC alloc] init];
         [self.navigationController pushViewController:slide animated:YES];
+        
+    }else  if (indexPath.row==2) {
+        CityViewController *slide =[[CityViewController alloc]init];
+        [self.navigationController pushViewController:slide animated:YES];
+        
+    }else  if (indexPath.row==3) {
+        FoldCityViewController *slide =[[FoldCityViewController alloc] init];
+        [self.navigationController pushViewController:slide animated:YES];
+        
+    }else  if (indexPath.row==4) {
+        AddressListView *  listView = [[AddressListView alloc]init];
+        listView.addressBlock = ^(NSString *addressStr, NSString *adcodeStr) {
+            NSLog(@"string = %@\nstrID = %@",addressStr,adcodeStr);
+            //               [weakSelf.addressListButton setTitle:addressStr forState:UIControlStateNormal];
+        };
+        
+        [listView show];
 
+    }else  if (indexPath.row==5) {
+        
+        AddressPickerView  *pickerView = [[AddressPickerView alloc]init];
+        pickerView.addressBlock = ^(NSString *addressStr, NSString *adcodeStr) {
+            NSLog(@"string = %@\nstrID = %@",addressStr,adcodeStr);
+            //               [weakSelf.addressPickerButton setTitle:addressStr forState:UIControlStateNormal];
+        };
+        [pickerView show];
     }
 }
 

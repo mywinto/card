@@ -62,14 +62,88 @@
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
     return YES;
 }
+- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset{
+    [self setScrollViewPostion:scrollView detailView:self.detailView topH:kScreenHeight/2];
+
+}
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    [self setFinishDetialViewPosition:self.detailView topH:kScreenHeight/2];
+}
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    if (_tableView.contentOffset.y <= 0) {
-        
-        _tableView.contentOffset  = CGPointZero;
-        
-    }
+    
+    [self setScrollViewPostion:scrollView detailView:self.detailView topH:kScreenHeight/2];
+//    if (_tableView.contentOffset.y <= 0) {
+//        self.detailView.y = self.detailView.y - _tableView.contentOffset.y;
+//
+//        _tableView.contentOffset  = CGPointZero;
+//    }
     
 }
+/// #pragma mark
+
+-(void)setScrollViewPostion:(UIScrollView *)scrollView detailView:(UIView *)detailView  topH:(CGFloat)topH{
+    if (scrollView.contentOffset.y <= 0) {
+        if (detailView.y - scrollView.contentOffset.y < topH){
+            
+        }else{
+            detailView.y = detailView.y - scrollView.contentOffset.y;
+            scrollView.contentOffset  = CGPointMake(0, 0);
+        }
+        
+    }else if (detailView.y > topH) {
+        if (detailView.y - scrollView.contentOffset.y < topH){
+            
+        }else{
+            detailView.y = detailView.y - scrollView.contentOffset.y;
+            scrollView.contentOffset  = CGPointMake(0, 0);
+        }
+        
+    }else if(detailView.y != topH){
+        detailView.y = topH;
+    }
+}
+
+/// <#Description#>
+/// - Parameters:
+///   - detailView: 需要移动的view
+///   - topH:需要移动的view frame y
+///   - pointView: pan相对postion view
+-(void)setPanViewPostion:(UIView *)detailView topH:(CGFloat)topH pointView:(UIView *)pointView sender:(UIPanGestureRecognizer *)sender{
+    CGPoint transP = [sender translationInView:pointView];
+    CGFloat y = transP.y + topH;
+    if( y < topH) {
+        y = topH;
+    }
+    detailView.y = y;
+    
+}
+-(void)setFinishDetialViewPosition:(UIView *)detailView topH:(CGFloat)topH {
+    CGFloat p = 0;
+    if (detailView.y > topH + (kScreenHeight - topH)/3){
+        p = kScreenHeight;
+    }else{
+        p = topH;
+        if (detailView.y < topH) {
+            detailView.y = p;
+            return;
+        }
+    }
+    [UIView animateWithDuration:0.3 animations:^{
+        detailView.y = p;
+    } completion:^(BOOL finished) {
+        if(p != topH){
+            ////            finishBlock()
+        }
+    }];
+    //    UIView.animate(withDuration: 0.3, animations: {
+    //        detailView.y = p
+    //    }) { (finish) in
+    //        if(p != topH){
+    ////            finishBlock()
+    //        }
+    //    }
+}
+
 #pragma mark 滑动事件
 - (void)detailViewSwipe:(UIPanGestureRecognizer *)sender{
     
@@ -174,13 +248,13 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
