@@ -12,6 +12,7 @@
 #import "CityViewController.h"
 #import "FoldCityViewController.h"
 #import "AddressListView.h"
+#import "SDViewController.h"
 #import "AddressPickerView.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)NSArray *array;
@@ -21,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _array = @[@"进入card",@"仿百度滑动停止",@"地区选择列表样式",@"地区选择列表可折叠",@"地区选择picker",@"地区选择4"];
+    _array = @[@"进入card",@"仿百度滑动停止",@"地区选择列表样式",@"地区选择列表可折叠",@"地区选择picker",@"地区选择4",@"大小图轮播"];
     [self setView];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -96,6 +97,10 @@
             //               [weakSelf.addressPickerButton setTitle:addressStr forState:UIControlStateNormal];
         };
         [pickerView show];
+    }else  if (indexPath.row==6) {
+        
+        SDViewController  *pickerView = [[SDViewController alloc]init];
+        [self.navigationController pushViewController:pickerView animated:YES];
     }
 }
 
