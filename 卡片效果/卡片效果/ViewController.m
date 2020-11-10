@@ -15,6 +15,7 @@
 #import "SDViewController.h"
 #import "AddressPickerView.h"
 #import "DViewController.h"
+#import "卡片效果-Swift.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)NSArray *array;
 @end
@@ -23,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _array = @[@"进入card",@"仿百度滑动停止",@"地区选择列表样式",@"地区选择列表可折叠",@"地区选择picker",@"地区选择4",@"大小图轮播",@"自定义时间选择"];
+    _array = @[@"进入card",@"仿百度滑动停止",@"地区选择列表样式",@"地区选择列表可折叠",@"地区选择picker",@"地区选择4",@"大小图轮播",@"自定义时间选择",@"flexlayout"];
     [self setView];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -106,6 +107,9 @@
         
         DViewController  *pickerView = [[DViewController alloc]init];
         [self.navigationController pushViewController:pickerView animated:YES];
+    }else  if (indexPath.row==8) {
+        FlexTestVC  *testVC = [[FlexTestVC alloc]init];
+        [self.navigationController pushViewController:testVC animated:YES];
     }
 }
 

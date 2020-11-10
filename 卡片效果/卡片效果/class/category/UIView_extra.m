@@ -112,7 +112,9 @@
 -(CGFloat)centerY {
     return self.center.y;
 }
-
+- (CGPoint)scenter{
+    return  CGPointMake(self.width/2, self.height/2);
+}
 -(UIView *)lastSubviewOnX{
     if(self.subviews.count > 0){
         UIView *outView = self.subviews[0];
@@ -191,6 +193,12 @@
         alert = nil;
     });
 }
-
+//- (void)mas_removeconstraints{
+//    NSArray * arr = [MASViewConstraint installedConstraintsForView:self];
+//    [arr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        [(MASViewConstraint *)obj uninstall];
+//    }];
+//    
+//}
 
 @end

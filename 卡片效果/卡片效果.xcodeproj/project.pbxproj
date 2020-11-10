@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,6 @@
 		CADB454820C66B8100B9E36D /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454420C66B8100B9E36D /* CardViewController.m */; };
 		CADB454920C66B8100B9E36D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454620C66B8100B9E36D /* CardView.m */; };
 		CADB454D20C6705300B9E36D /* SlideVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454C20C6705300B9E36D /* SlideVC.m */; };
-		CADB455020C6726F00B9E36D /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB454E20C6726F00B9E36D /* UIView_extra.m */; };
 		FE7DAA95251DD67500C6E583 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DA9E9251DD67500C6E583 /* Aspects.m */; };
 		FE7DAA98251DD67500C6E583 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DA9F3251DD67500C6E583 /* SDCycleScrollView.m */; };
 		FE7DAA99251DD67500C6E583 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DA9F4251DD67500C6E583 /* UIView+SDExtension.m */; };
@@ -152,6 +151,9 @@
 		FE9F0EB8250753B300D0A62A /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9F0EAB250753B300D0A62A /* CityCollectionViewCell.xib */; };
 		FE9F0EB9250753B300D0A62A /* FoldCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F0EAC250753B300D0A62A /* FoldCityTableViewCell.m */; };
 		FE9F0EBA250753B300D0A62A /* indexTitlesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F0EAD250753B300D0A62A /* indexTitlesTableViewCell.m */; };
+		FEA2398D254A65860089859A /* FlexTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA2398C254A65860089859A /* FlexTestVC.swift */; };
+		FEA239AB254A69D70089859A /* flexOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA239AA254A69D70089859A /* flexOutView.swift */; };
+		FEA239B5254A6CD40089859A /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA239B4254A6CD40089859A /* UIView_extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +174,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5BFBDEAC61F749568516B4 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		400805742D36CF6D23CB4D9F /* Pods-卡片效果.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-卡片效果.debug.xcconfig"; path = "Target Support Files/Pods-卡片效果/Pods-卡片效果.debug.xcconfig"; sourceTree = "<group>"; };
+		6CDC2244DD5CE9FF92FBFF0B /* Pods-卡片效果.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-卡片效果.release.xcconfig"; path = "Target Support Files/Pods-卡片效果/Pods-卡片效果.release.xcconfig"; sourceTree = "<group>"; };
 		CA4E902120C631BA000DBB6B /* 卡片效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卡片效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4E902420C631BA000DBB6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA4E902520C631BA000DBB6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -198,8 +203,6 @@
 		CADB454620C66B8100B9E36D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		CADB454B20C6705300B9E36D /* SlideVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideVC.h; sourceTree = "<group>"; };
 		CADB454C20C6705300B9E36D /* SlideVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideVC.m; sourceTree = "<group>"; };
-		CADB454E20C6726F00B9E36D /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
-		CADB454F20C6726F00B9E36D /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
 		FE7DA9E7251DD67500C6E583 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
 		FE7DA9E9251DD67500C6E583 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		FE7DA9F0251DD67500C6E583 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
@@ -463,6 +466,11 @@
 		FE9F0EAB250753B300D0A62A /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
 		FE9F0EAC250753B300D0A62A /* FoldCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldCityTableViewCell.m; sourceTree = "<group>"; };
 		FE9F0EAD250753B300D0A62A /* indexTitlesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = indexTitlesTableViewCell.m; sourceTree = "<group>"; };
+		FEA2398B254A65850089859A /* 卡片效果-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "卡片效果-Bridging-Header.h"; sourceTree = "<group>"; };
+		FEA2398C254A65860089859A /* FlexTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexTestVC.swift; sourceTree = "<group>"; };
+		FEA239AA254A69D70089859A /* flexOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexOutView.swift; sourceTree = "<group>"; };
+		FEA239B3254A6CD40089859A /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		FEA239B4254A6CD40089859A /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -490,6 +498,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B209CF15584F6575961AE7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				400805742D36CF6D23CB4D9F /* Pods-卡片效果.debug.xcconfig */,
+				6CDC2244DD5CE9FF92FBFF0B /* Pods-卡片效果.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BABAC4F3811CC3E9DE09F627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5BFBDEAC61F749568516B4 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA4E901820C631BA000DBB6B = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +522,8 @@
 				CA4E903C20C631BD000DBB6B /* 卡片效果Tests */,
 				CA4E904720C631BD000DBB6B /* 卡片效果UITests */,
 				CA4E902220C631BA000DBB6B /* Products */,
+				7B209CF15584F6575961AE7F /* Pods */,
+				BABAC4F3811CC3E9DE09F627 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -513,6 +540,8 @@
 		CA4E902320C631BA000DBB6B /* 卡片效果 */ = {
 			isa = PBXGroup;
 			children = (
+				FEA2398A254A65650089859A /* swift */,
+				FEBB63AD254273E900B5CFB3 /* class */,
 				FE7DAB24251DDA2B00C6E583 /* datePicker */,
 				FE7DAAEB251DD69800C6E583 /* sdcycle */,
 				FE9F0E93250753B300D0A62A /* FoldStyle */,
@@ -527,8 +556,6 @@
 				CADB454020C66B8100B9E36D /* New Group */,
 				CA4E902720C631BA000DBB6B /* ViewController.h */,
 				CA4E902820C631BA000DBB6B /* ViewController.m */,
-				CADB454F20C6726F00B9E36D /* UIView_extra.h */,
-				CADB454E20C6726F00B9E36D /* UIView_extra.m */,
 				CA4E906020C6351B000DBB6B /* 1.jpg */,
 				CA4E906220C6351B000DBB6B /* 2.jpg */,
 				CA4E906120C6351B000DBB6B /* 3.jpg */,
@@ -933,19 +960,11 @@
 				FE9F0E4B2507343400D0A62A /* SystemLocationTool.m */,
 				FE9F0E4C2507343400D0A62A /* Header.h */,
 				FE9F0E4D2507343400D0A62A /* BMChineseSort.h */,
-				FE9F0E7B2507343400D0A62A /* UIView+Frame.h */,
-				FE9F0E4E2507343400D0A62A /* UIView+Frame.m */,
-				FE9F0E4F2507343400D0A62A /* UIButton+Category.m */,
 				FE9F0E502507343400D0A62A /* Masonry */,
-				FE9F0E6F2507343400D0A62A /* UIColor+HexString.h */,
-				FE9F0E702507343400D0A62A /* NSString+Size.h */,
 				FE9F0E712507343400D0A62A /* YYModel */,
 				FE9F0E772507343400D0A62A /* SystemLocationTool.h */,
 				FE9F0E782507343400D0A62A /* BMChineseSort.m */,
-				FE9F0E792507343400D0A62A /* UIButton+Category.h */,
 				FE9F0E7A2507343400D0A62A /* PrefixHeader.pch */,
-				FE9F0E7C2507343400D0A62A /* NSString+Size.m */,
-				FE9F0E7D2507343400D0A62A /* UIColor+HexString.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -1059,6 +1078,57 @@
 			path = SCIndexView;
 			sourceTree = "<group>";
 		};
+		FEA2398A254A65650089859A /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				FEA239A9254A66D80089859A /* views */,
+				FEA2398C254A65860089859A /* FlexTestVC.swift */,
+				FEA2398B254A65850089859A /* 卡片效果-Bridging-Header.h */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		FEA239A9254A66D80089859A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FEA239AA254A69D70089859A /* flexOutView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FEBB63AD254273E900B5CFB3 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				FEBB63AF254273F900B5CFB3 /* extension */,
+				FEBB63AE254273F200B5CFB3 /* category */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		FEBB63AE254273F200B5CFB3 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				FE9F0E792507343400D0A62A /* UIButton+Category.h */,
+				FE9F0E4F2507343400D0A62A /* UIButton+Category.m */,
+				FE9F0E6F2507343400D0A62A /* UIColor+HexString.h */,
+				FE9F0E7D2507343400D0A62A /* UIColor+HexString.m */,
+				FE9F0E702507343400D0A62A /* NSString+Size.h */,
+				FE9F0E7C2507343400D0A62A /* NSString+Size.m */,
+				FE9F0E7B2507343400D0A62A /* UIView+Frame.h */,
+				FE9F0E4E2507343400D0A62A /* UIView+Frame.m */,
+				FEA239B3254A6CD40089859A /* UIView_extra.h */,
+				FEA239B4254A6CD40089859A /* UIView_extra.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		FEBB63AF254273F900B5CFB3 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1066,9 +1136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA4E904D20C631BD000DBB6B /* Build configuration list for PBXNativeTarget "卡片效果" */;
 			buildPhases = (
+				86E9F1E8627A0E2920B116D9 /* [CP] Check Pods Manifest.lock */,
 				CA4E901D20C631BA000DBB6B /* Sources */,
 				CA4E901E20C631BA000DBB6B /* Frameworks */,
 				CA4E901F20C631BA000DBB6B /* Resources */,
+				E95CC0B11D3770AF0BF81542 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1126,6 +1198,7 @@
 				TargetAttributes = {
 					CA4E902020C631BA000DBB6B = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1210;
 					};
 					CA4E903820C631BD000DBB6B = {
 						CreatedOnToolsVersion = 9.4;
@@ -1195,6 +1268,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86E9F1E8627A0E2920B116D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-卡片效果-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95CC0B11D3770AF0BF81542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-卡片效果/Pods-卡片效果-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-卡片效果/Pods-卡片效果-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-卡片效果/Pods-卡片效果-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA4E901D20C631BA000DBB6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1233,6 +1348,7 @@
 				FE9F0EB9250753B300D0A62A /* FoldCityTableViewCell.m in Sources */,
 				FE9F0E882507343400D0A62A /* View+MASAdditions.m in Sources */,
 				FE9F0E912507343400D0A62A /* NSString+Size.m in Sources */,
+				FEA239B5254A6CD40089859A /* UIView_extra.m in Sources */,
 				FE9F0E452507341600D0A62A /* CityTableViewCell.m in Sources */,
 				FE7DAAB9251DD67500C6E583 /* SDImageAPNGCoder.m in Sources */,
 				FE7DAABA251DD67500C6E583 /* SDWebImageDownloaderResponseModifier.m in Sources */,
@@ -1245,6 +1361,7 @@
 				FE7DAA9A251DD67500C6E583 /* SDCollectionViewCell.m in Sources */,
 				FE7DAAA6251DD67500C6E583 /* SDWebImageDownloaderDecryptor.m in Sources */,
 				CADB454D20C6705300B9E36D /* SlideVC.m in Sources */,
+				FEA2398D254A65860089859A /* FlexTestVC.swift in Sources */,
 				FE9F0E8B2507343400D0A62A /* MASViewConstraint.m in Sources */,
 				FE7DAAD9251DD67500C6E583 /* SDWebImageDownloaderRequestModifier.m in Sources */,
 				FE9F0EAF250753B300D0A62A /* FoldCityViewController.m in Sources */,
@@ -1300,6 +1417,7 @@
 				FE7DAAC9251DD67500C6E583 /* SDImageCachesManager.m in Sources */,
 				FE7DAABD251DD67500C6E583 /* SDImageCoderHelper.m in Sources */,
 				FE7DAACB251DD67500C6E583 /* SDImageTransformer.m in Sources */,
+				FEA239AB254A69D70089859A /* flexOutView.swift in Sources */,
 				FE7DAA95251DD67500C6E583 /* Aspects.m in Sources */,
 				FE7DAAC4251DD67500C6E583 /* SDImageCache.m in Sources */,
 				FE9F0EB5250753B300D0A62A /* UITableView+SCIndexView.m in Sources */,
@@ -1311,7 +1429,6 @@
 				CA4E903420C631BD000DBB6B /* main.m in Sources */,
 				FE7DAAC8251DD67500C6E583 /* SDImageLoadersManager.m in Sources */,
 				FE9F0E472507341600D0A62A /* CustomSlideView.m in Sources */,
-				CADB455020C6726F00B9E36D /* UIView_extra.m in Sources */,
 				FE9F0E482507341600D0A62A /* CardViewController.m in Sources */,
 				FE9F0E432507341600D0A62A /* ResultCityController.m in Sources */,
 				FE7DAAB5251DD67500C6E583 /* SDImageCodersManager.m in Sources */,
@@ -1495,8 +1612,10 @@
 		};
 		CA4E904E20C631BD000DBB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400805742D36CF6D23CB4D9F /* Pods-卡片效果.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/卡片效果/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "卡片效果/Info.plist";
@@ -1506,14 +1625,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myking.www.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "卡片效果/swift/卡片效果-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CA4E904F20C631BD000DBB6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDC2244DD5CE9FF92FBFF0B /* Pods-卡片效果.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/卡片效果/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "卡片效果/Info.plist";
@@ -1523,6 +1647,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.myking.www.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "卡片效果/swift/卡片效果-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1530,6 +1656,7 @@
 		CA4E905120C631BD000DBB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "卡片效果Tests/Info.plist";
@@ -1548,6 +1675,7 @@
 		CA4E905220C631BD000DBB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "卡片效果Tests/Info.plist";
@@ -1566,6 +1694,7 @@
 		CA4E905420C631BD000DBB6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "卡片效果UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1583,6 +1712,7 @@
 		CA4E905520C631BD000DBB6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "卡片效果UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

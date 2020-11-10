@@ -22,9 +22,12 @@
 @property (nonatomic, assign) CGFloat   right;
 @property (nonatomic, assign) CGFloat   centerX;
 @property (nonatomic, assign) CGFloat   centerY;
+@property (nonatomic, assign) CGPoint   scenter;
+
 @property (nonatomic, strong, readonly) UIView *lastSubviewOnX;
 @property (nonatomic, strong, readonly) UIView *lastSubviewOnY;
 
+- (void)mas_removeconstraints;
 /**
  * @brief 移除此view上的所有子视图
  */

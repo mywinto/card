@@ -10,6 +10,4 @@
 #define PrefixHeader_pch
 
 #import "Header.h"
-#import "UIView+Frame.h"
-#import "YYModel.h"
 #endif /* PrefixHeader_pch */

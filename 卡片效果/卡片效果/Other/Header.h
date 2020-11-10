@@ -137,5 +137,10 @@ NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];              
 #define kUserDefaults_GET_OBJECT(key) [[NSUserDefaults standardUserDefaults] objectForKey:key]
 
 #import <UIKit/UIKit.h>
+#import "UIView+Frame.h"
+#import "YYModel.h"
+
+
+
 
 #endif /* Header_h */
