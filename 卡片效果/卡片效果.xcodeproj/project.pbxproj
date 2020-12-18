@@ -104,6 +104,7 @@
 		FE7DAB16251DD9F400C6E583 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DAB12251DD9F400C6E583 /* NSDate+Extension.m */; };
 		FE7DAB17251DD9F400C6E583 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DAB13251DD9F400C6E583 /* UIView+Extension.m */; };
 		FE7DAB2A251DDA4E00C6E583 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7DAB28251DDA4E00C6E583 /* DViewController.m */; };
+		FE968BC8258317430040FD13 /* fontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE968BC7258317430040FD13 /* fontVC.m */; };
 		FE9F0E1F2507336000D0A62A /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = FE9F0E1E2507336000D0A62A /* area.json */; };
 		FE9F0E3D2507341600D0A62A /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F0E232507341600D0A62A /* CityModel.m */; };
 		FE9F0E3E2507341600D0A62A /* AddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9F0E252507341600D0A62A /* AddressCell.xib */; };
@@ -371,6 +372,8 @@
 		FE7DAB13251DD9F400C6E583 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		FE7DAB28251DDA4E00C6E583 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
 		FE7DAB29251DDA4E00C6E583 /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		FE968BC6258317430040FD13 /* fontVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fontVC.h; sourceTree = "<group>"; };
+		FE968BC7258317430040FD13 /* fontVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fontVC.m; sourceTree = "<group>"; };
 		FE9F0E1E2507336000D0A62A /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		FE9F0E212507341600D0A62A /* AddressCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCell.h; sourceTree = "<group>"; };
 		FE9F0E222507341600D0A62A /* AddressListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressListView.h; sourceTree = "<group>"; };
@@ -540,6 +543,7 @@
 		CA4E902320C631BA000DBB6B /* 卡片效果 */ = {
 			isa = PBXGroup;
 			children = (
+				FE968BC5258317280040FD13 /* font */,
 				FEA2398A254A65650089859A /* swift */,
 				FEBB63AD254273E900B5CFB3 /* class */,
 				FE7DAB24251DDA2B00C6E583 /* datePicker */,
@@ -879,6 +883,15 @@
 				FE7DAB28251DDA4E00C6E583 /* DViewController.m */,
 			);
 			path = datePicker;
+			sourceTree = "<group>";
+		};
+		FE968BC5258317280040FD13 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				FE968BC6258317430040FD13 /* fontVC.h */,
+				FE968BC7258317430040FD13 /* fontVC.m */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 		FE9F0E1D2507334E00D0A62A /* Resourse */ = {
@@ -1326,6 +1339,7 @@
 				FE7DAAC0251DD67500C6E583 /* SDDiskCache.m in Sources */,
 				FE9F0E3F2507341600D0A62A /* AddressCell.m in Sources */,
 				FE9F0E7F2507343400D0A62A /* UIView+Frame.m in Sources */,
+				FE968BC8258317430040FD13 /* fontVC.m in Sources */,
 				FE7DAACD251DD67500C6E583 /* UIImageView+WebCache.m in Sources */,
 				FE7DAAD1251DD67500C6E583 /* SDImageCacheConfig.m in Sources */,
 				FE7DAABF251DD67500C6E583 /* SDImageIOCoder.m in Sources */,
