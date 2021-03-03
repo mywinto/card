@@ -1,30 +1,67 @@
 PODS:
+  - Alamofire (4.9.1)
+  - FLAnimatedImage (1.0.15)
   - FlexLayout (1.3.20)
+  - HandyJSON (5.0.2)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - Shimmer (1.0.2)
+  - XHLaunchAd (3.9.12):
+    - FLAnimatedImage (~> 1.0.12)
 
 DEPENDENCIES:
+  - Alamofire
   - FlexLayout
+  - HandyJSON (~> 5.0.2)
+  - Moya
   - RxCocoa (= 5.1.1)
   - RxSwift
+  - SDWebImage
+  - Shimmer
+  - XHLaunchAd
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Alamofire
+    - FLAnimatedImage
     - FlexLayout
+    - HandyJSON
+    - Moya
+    - Result
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SDWebImage
+    - Shimmer
+    - XHLaunchAd
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FLAnimatedImage: dd3db277b17e909ec3c7fd41adfce79b321d960e
   FlexLayout: 025dd153bd5618dcc9f93ef914106d7dc2a86fdc
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  XHLaunchAd: 6320f9c68732667323072fc3a5f104e40fbe9cfe
 
-PODFILE CHECKSUM: b9a6316f90ccbe28a8566086102b33587b8e6f1e
+PODFILE CHECKSUM: 0103a379e650e619c13e8f2c94025a7023aef117
 
 COCOAPODS: 1.9.3

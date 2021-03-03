@@ -8,4 +8,11 @@ target '卡片效果' do
   pod 'FlexLayout'
   pod 'RxSwift'
   pod 'RxCocoa','= 5.1.1'
+  pod 'Alamofire'
+  pod 'HandyJSON','~> 5.0.2' #解析
+  pod 'Shimmer'
+  pod 'XHLaunchAd'
+  pod 'Moya'
+  pod 'SDWebImage'
+
 end
