@@ -14,5 +14,5 @@ target '卡片效果' do
   pod 'XHLaunchAd'
   pod 'Moya'
   pod 'SDWebImage'
-
+  pod 'Masonry'
 end
